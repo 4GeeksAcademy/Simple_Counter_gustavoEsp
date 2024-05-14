@@ -9,4 +9,43 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+    */
+
+
+#counter{
+    background-color: black;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+#numero{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.bigCounter{
+    /* display: inline-block;
+    margin: 0 auto; */
+    text-align: center;
+    background: black;
+}
+
+.bigCounter div{
+    background-color: black;
+    font-size: 60px;
+    line-height: 60px;
+    color:white; 
+    padding: 10px;
+    margin: 3px;
+    display: inline-block;
+}
+
+#botones {
+    margin-top: 10%;
+    text-align: center;
+}
